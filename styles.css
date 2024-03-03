@@ -60,17 +60,17 @@ body {
 .circle {
   position: absolute;
     width: 289%;
-    height: 18%;
+    height: 9%;
     border-radius: 50%;
     background-color: #1E90FF;
     left: -90%;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  font-size: 10px; /* Set a base font size for relative units to work off */
+  font-size: 7px; 
 }
 
 .left-triangle {
   position: absolute;
-  left: -1.5em; /* Adjust this value based on the size of the .circle */
+  left: -1.5em; 
   top: 50%;
   transform: translateY(-50%); /* Center the triangle vertically */
   width: 0;
