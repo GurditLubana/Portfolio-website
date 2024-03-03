@@ -10,7 +10,7 @@ body {
 }
 
 .landing-pg {
-  background-size: 180% 180%;
+  height: 100vh;
 }
 
 .navbar,
@@ -25,16 +25,18 @@ body {
 
 .history{
   display: grid;
-  grid-template-columns: 1fr 0.03fr 1fr;
+  grid-template-columns: 1fr 0.01fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
 
  
 }
 
 .history-tab{
-  height: 100px;
-     
+  height: 200px;  
+  transition: 0.5s;   
+ 
 }
+
 
 .center-line{
   background-color: #1E90FF;
@@ -42,24 +44,50 @@ body {
 
 }
 
-.circle {
-  position: absolute;
-  width: 198%;
-  height: 26%;
-  border-radius: 50%;
-  background-color: #1E90FF;
-  left: -50%;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+.left-side{
+ 
+  text-align: right;
+  
 }
 
-.triangle {
+.right-side{
+ 
+  text-align: left;
+  
+}
+
+
+.circle {
   position: absolute;
-  right: -260%;
-  top: 5%;
-  /* transform: translateY(-50%); */
+    width: 289%;
+    height: 18%;
+    border-radius: 50%;
+    background-color: #1E90FF;
+    left: -90%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  font-size: 10px; /* Set a base font size for relative units to work off */
+}
+
+.left-triangle {
+  position: absolute;
+  left: -1.5em; /* Adjust this value based on the size of the .circle */
+  top: 50%;
+  transform: translateY(-50%); /* Center the triangle vertically */
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 7px 0 7px 14px;
+  border-width: 0.7em 1.4em 0.7em 0; /* Relative to font-size of .circle */
+  border-color: transparent #1E90FF transparent transparent ;
+}
+
+.right-triangle {
+  position: absolute;
+  right: -1.5em; /* Adjust this value based on the size of the .circle */
+  top: 50%;
+  transform: translateY(-50%); /* Center the triangle vertically */
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0.7em 0 0.7em 1.4em; /* Relative to font-size of .circle */
   border-color: transparent transparent transparent #1E90FF;
 }
