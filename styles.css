@@ -18,66 +18,55 @@ body {
   color: white !important;
 }
 
-.experience{
-
+.experience {
   margin-top: 3;
 }
 
-.history{
+.history {
   display: grid;
   grid-template-columns: 1fr 0.01fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-
- 
 }
 
-.history-tab{
-  height: 200px;  
-  transition: 0.5s;   
- 
+.history-tab {
+  height: 200px;
+  transition: 0.5s;
 }
 
-
-.center-line{
-  background-color: #1E90FF;
+.center-line {
+  background-color: #1e90ff;
   position: relative;
-
 }
 
-.left-side{
- 
+.left-side {
   text-align: right;
-  
 }
 
-.right-side{
- 
+.right-side {
   text-align: left;
-  
 }
-
 
 .circle {
   position: absolute;
-    width: 289%;
-    height: 9%;
-    border-radius: 50%;
-    background-color: #1E90FF;
-    left: -90%;
+  width: 289%;
+  height: 9%;
+  border-radius: 50%;
+  background-color: #1e90ff;
+  left: -90%;
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  font-size: 7px; 
+  font-size: 7px;
 }
 
 .left-triangle {
   position: absolute;
-  left: -1.5em; 
+  left: -1.5em;
   top: 50%;
   transform: translateY(-50%); /* Center the triangle vertically */
   width: 0;
   height: 0;
   border-style: solid;
   border-width: 0.7em 1.4em 0.7em 0; /* Relative to font-size of .circle */
-  border-color: transparent #1E90FF transparent transparent ;
+  border-color: transparent #1e90ff transparent transparent;
 }
 
 .right-triangle {
@@ -89,5 +78,28 @@ body {
   height: 0;
   border-style: solid;
   border-width: 0.7em 0 0.7em 1.4em; /* Relative to font-size of .circle */
-  border-color: transparent transparent transparent #1E90FF;
+  border-color: transparent transparent transparent #1e90ff;
+}
+
+#education-tab {
+  background-image: url("images/university-of-manitoba.jpeg");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+
+
+.education-col{
+  
+ 
+}
+
+.edu-details{
+
+  background-color: rgba(250, 247, 247, 0.8);
+  color: black;
+  /* margin-right: 1.5rem !important; */
+  
 }
