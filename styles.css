@@ -2,6 +2,8 @@ body {
   font-family: "Merriweather", serif;
   font-weight: 400;
   font-style: normal;
+  
+  
 }
 
 .landing-pg-img {
@@ -9,18 +11,15 @@ body {
   border-end-start-radius: 15%;
 }
 
-
-.landing-pg {
-  height: 80vh;
-}
-
 .navbar,
 .offcanvas {
   color: white !important;
 }
 
-.experience {
-  margin-top: 3;
+.landing-pg, #experience-tab, #skills-tab, #education-tab {
+  height: 100vh;
+  scroll-margin-top: 60px;
+  
 }
 
 .history {
