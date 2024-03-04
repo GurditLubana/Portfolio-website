@@ -9,8 +9,9 @@ body {
   border-end-start-radius: 15%;
 }
 
+
 .landing-pg {
-  height: 100vh;
+  height: 80vh;
 }
 
 .navbar,
@@ -104,4 +105,12 @@ body {
   border-radius: 10px;
 
   
+}
+
+.skill-grid{
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
 }
