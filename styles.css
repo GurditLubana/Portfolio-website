@@ -91,7 +91,8 @@ body {
 }
 
 
-.education-col{
+.transcript-img{
+  border-radius: 10px;
   
  
 }
@@ -100,6 +101,7 @@ body {
 
   background-color: rgba(250, 247, 247, 0.8);
   color: black;
-  /* margin-right: 1.5rem !important; */
+  border-radius: 10px;
+
   
 }
