@@ -18,7 +18,7 @@ body {
 
 .landing-pg, #experience-tab, #education-tab {
   height: 100vh;
-  scroll-margin-top: 60px;
+  scroll-margin-top: 80px;
   
 }
 
@@ -38,8 +38,9 @@ ul li{
 }
 
 .history-tab {
-  height: 200px;
-  transition: 0.5s;
+  height: auto;
+  
+  
 }
 
 .center-line {
@@ -70,11 +71,11 @@ ul li{
   position: absolute;
   left: -1.5em;
   top: 50%;
-  transform: translateY(-50%); /* Center the triangle vertically */
+  transform: translateY(-50%); 
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 0.7em 1.4em 0.7em 0; /* Relative to font-size of .circle */
+  border-width: 0.7em 1.4em 0.7em 0; 
   border-color: transparent #1e90ff transparent transparent;
 }
 
@@ -121,4 +122,14 @@ ul li{
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   gap: 10px;
+}
+
+.accordion-button .right-align-text {
+  text-align: center;
+  width: 100%; 
+}
+
+.job-duties{
+
+  text-align: left;
 }
