@@ -11,25 +11,13 @@ body {
   border-end-start-radius: 15%;
 }
 
-.navbar,
-.offcanvas {
-  color: white !important;
-}
 
-.landing-pg, #experience-tab, #education-tab {
+.landing-pg, #experience-tab, #education-tab, #skills-tab, #projects-tab {
   height: 100vh;
-  scroll-margin-top: 80px;
+  scroll-margin-top: 60px;
   
 }
 
-#skills-tab{
-  scroll-margin-top: 60px;
-
-}
-
-ul li{
-  margin-bottom: 20px;
-}
 
 .history {
   display: grid;
@@ -124,7 +112,7 @@ ul li{
   gap: 10px;
 }
 
-.accordion-button .right-align-text {
+.accordion-button .center-align-text {
   text-align: center;
   width: 100%; 
 }
@@ -133,3 +121,8 @@ ul li{
 
   text-align: left;
 }
+
+.nav-item {
+  margin-bottom: 0px;
+}
+

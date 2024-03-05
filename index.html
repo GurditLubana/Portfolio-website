@@ -48,7 +48,7 @@
                             <li class="nav-item"><a class="nav-link" href="#skills-tab">Skills</a></li>
                             <li class="nav-item"><a class="nav-link" href="#experience-tab">Experience</a></li>
                             <li class="nav-item"><a class="nav-link" href="#education-tab">Education</a></li>
-                            <li class="nav-item"><a class="nav-link" href="#">Projects</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#projects-tab">Projects</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">Resume</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
                             <li class="nav-item"><a class="nav-link" href="#">Feedback</a></li>
@@ -87,7 +87,7 @@
 
         <!-- Skills -->
 
-        <section id="skills-tab" class="skills mb-3 pt-4">
+        <section id="skills-tab" class="skills mb-3">
 
             <h1><strong>Skills</strong></h1>
             <div class="col-md-12 row flex-lg align-items-center g-5 pt-5">
@@ -125,7 +125,7 @@
                             <h3 class="mb-4">Curriculum Contributions</h3>
 
                             <ul>
-                                <li>
+                                <li class="mb-3">
 
                                     <strong>Computer Science: </strong> Data Structures &amp; Algorithms, Object
                                     Orientated
@@ -155,160 +155,121 @@
         <section class="experience my-5" id="experience-tab">
             <h1><strong>Experience</strong></h1>
 
-            <div class="history">
-                <div class="history-tab left-side">
+            <div class="accordion my-5 mx-5" id="accordionExample">
+                <div class="accordion-item mb-4">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <h5 class="center-align-text"><strong>Manitoba Government</strong>- <em>Data Analyst
+                                    Internship</em></h5>
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
 
-                    <div class="accordion me-4" id="accordionExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                    <h4 class="right-align-text"><strong>Manitoba Government</strong></h4>
-                                </button>
-                            </h2>
-                            <div id="collapseOne" class="accordion-collapse collapse"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p><em>Data Analyst Internship</em></p>
-                                    <ul class="job-duties">
+                            <ul class="job-duties">
 
-                                        <li>
+                                <li>
 
-                                            Cleansed and converted Winnipeg's school dataset to a new XSD schema,
-                                            enhancing data accuracy.
-                                        </li>
-                                        <li>
+                                    Cleansed and converted Winnipeg's school dataset to a new XSD schema,
+                                    enhancing data accuracy.
+                                </li>
+                                <li>
 
-                                            Utilized Python, Visual Studio Code, and MS SQL Server for dataset
-                                            integration and management.
-                                        </li>
-                                        <li>
+                                    Utilized Python, Visual Studio Code, and MS SQL Server for dataset
+                                    integration and management.
+                                </li>
+                                <li>
 
-                                            Created visualizations to uncover insights, facilitating data-driven
-                                            decisions in education.
-                                        </li>
-                                        <li>
+                                    Created visualizations to uncover insights, facilitating data-driven
+                                    decisions in education.
+                                </li>
+                                <li>
 
-                                            Refined technical skills, emphasizing the significance of data in public
-                                            sector analysis.
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                                    Refined technical skills, emphasizing the significance of data in public
+                                    sector analysis.
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
-
-                <div class="history-tab center-line " style="background-color:red;">
-                    <div class="circle" style="background-color:red;">
-
-                        <div class="left-triangle" style="border-color: transparent red transparent transparent;"></div>
-                    </div>
-                </div>
-                <div class="history-tab writeable">
-
-                </div>
-                <div class="history-tab writeable">
-
-                </div>
-                <div class="history-tab center-line">
-                    <div class="circle">
-
-                        <div class="right-triangle"></div>
-                    </div>
-                </div>
-                <div class="history-tab right-side">
-                    <div class="accordion ms-4" id="accordionExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-                                    <h4 class="right-align-text"><strong>Wawanesa Insurance</strong></h4>
-                                </button>
-                            </h2>
-                            <div id="collapseTwo" class="accordion-collapse collapse"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p><em>Administrative Assistant</em></p>
-                                    <ul class="job-duties">
-
-                                        <li>
-
-                                            Cleansed and converted Winnipeg's school dataset to a new XSD schema,
-                                            enhancing data accuracy.
-                                        </li>
-                                        <li>
-
-                                            Utilized Python, Visual Studio Code, and MS SQL Server for dataset
-                                            integration and management.
-                                        </li>
-                                        <li>
-
-                                            Created visualizations to uncover insights, facilitating data-driven
-                                            decisions in education.
-                                        </li>
-                                        <li>
-
-                                            Refined technical skills, emphasizing the significance of data in public
-                                            sector analysis.
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                <div class="accordion-item mb-4">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <h5 class="center-align-text"><strong>Wawanesa Insurance</strong>- <em>Administrative
+                                    Assistant</em></h5>
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the second item's accordion body.</strong> It is hidden by default, until
+                            the collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
                         </div>
                     </div>
                 </div>
-                <div class="history-tab left-side">
-                    <div class="accordion me-4" id="accordionExample">
-                        <div class="accordion-item">
-                            <h2 class="accordion-header">
-                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-                                    <h4 class="right-align-text"><strong>Manitoba Government</strong></h4>
-                                </button>
-                            </h2>
-                            <div id="collapseThree" class="accordion-collapse collapse"
-                                data-bs-parent="#accordionExample">
-                                <div class="accordion-body">
-                                    <p><em>Data Analyst Internship</em></p>
-                                    <ul class="job-duties">
-
-                                        <li>
-
-                                            Cleansed and converted Winnipeg's school dataset to a new XSD schema,
-                                            enhancing data accuracy.
-                                        </li>
-                                        <li>
-
-                                            Utilized Python, Visual Studio Code, and MS SQL Server for dataset
-                                            integration and management.
-                                        </li>
-                                        <li>
-
-                                            Created visualizations to uncover insights, facilitating data-driven
-                                            decisions in education.
-                                        </li>
-                                        <li>
-
-                                            Refined technical skills, emphasizing the significance of data in public
-                                            sector analysis.
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                <div class="accordion-item mb-4">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <h5 class="center-align-text"><strong>University of Winnipeg</strong>- <em>Security
+                                    Guard</em></h5>
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            <strong>This is the third item's accordion body.</strong> It is hidden by default, until the
+                            collapse plugin adds the appropriate classes that we use to style each element. These
+                            classes control the overall appearance, as well as the showing and hiding via CSS
+                            transitions. You can modify any of this with custom CSS or overriding our default variables.
+                            It's also worth noting that just about any HTML can go within the
+                            <code>.accordion-body</code>, though the transition does limit overflow.
                         </div>
                     </div>
                 </div>
-                <div class="history-tab center-line">
-                    <div class="circle">
+                <div class="accordion-item mb-4">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                            <h5 class="center-align-text"><strong>Undergraduate Research Assistant-
+                                </strong><em>Mathematics Department</em></h5>
+                        </button>
+                    </h2>
+                    <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
 
-                        <div class="left-triangle"></div>
+                            <ul class="job-duties">
+
+                                <li>
+
+                                    Cleansed and converted Winnipeg's school dataset to a new XSD schema,
+                                    enhancing data accuracy.
+                                </li>
+                                <li>
+
+                                    Utilized Python, Visual Studio Code, and MS SQL Server for dataset
+                                    integration and management.
+                                </li>
+                                <li>
+
+                                    Created visualizations to uncover insights, facilitating data-driven
+                                    decisions in education.
+                                </li>
+                                <li>
+
+                                    Refined technical skills, emphasizing the significance of data in public
+                                    sector analysis.
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                <div class="history-tab writeable">
-
                 </div>
             </div>
+
         </section>
 
         <!-- Education -->
@@ -336,7 +297,106 @@
 
         </section>
 
-        <!--  -->
+        <!-- Projects -->
+        <section id="projects-tab">
+            <h1><strong>Personal Projects</strong></h1>
+
+            <div class="album py-5 bg-body-tertiary">
+                <div class="container">
+
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                    preserveAspectRatio="xMidYMid slice" focusable="true">
+                                    <title>Placeholder</title>
+                                    <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%"
+                                        fill="#eceeef" dy=".3em">Thumbnail</text>
+                                </svg>
+                                <div class="card-body">
+                                    <p class="card-text"><strong>Student Management Application</strong></p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-body-secondary">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                                    <title>Placeholder</title>
+                                    <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%"
+                                        fill="#eceeef" dy=".3em">Thumbnail</text>
+                                </svg>
+                                <div class="card-body">
+                                    <p class="card-text"><strong>Kitchen Simulation Program</strong></p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-body-secondary">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                                    <title>Placeholder</title>
+                                    <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%"
+                                        fill="#eceeef" dy=".3em">Thumbnail</text>
+                                </svg>
+                                <div class="card-body">
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-body-secondary">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card shadow-sm">
+                                <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
+                                    xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
+                                    preserveAspectRatio="xMidYMid slice" focusable="false">
+                                    <title>Placeholder</title>
+                                    <rect width="100%" height="100%" fill="#55595c"></rect><text x="50%" y="50%"
+                                        fill="#eceeef" dy=".3em">Thumbnail</text>
+                                </svg>
+                                <div class="card-body">
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to additional content. This content is a little bit longer.</p>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                                        </div>
+                                        <small class="text-body-secondary">9 mins</small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
 
