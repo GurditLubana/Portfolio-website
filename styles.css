@@ -16,10 +16,19 @@ body {
   color: white !important;
 }
 
-.landing-pg, #experience-tab, #skills-tab, #education-tab {
+.landing-pg, #experience-tab, #education-tab {
   height: 100vh;
   scroll-margin-top: 60px;
   
+}
+
+#skills-tab{
+  scroll-margin-top: 60px;
+
+}
+
+ul li{
+  margin-bottom: 20px;
 }
 
 .history {
