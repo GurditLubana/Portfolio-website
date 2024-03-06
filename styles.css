@@ -126,3 +126,21 @@ body {
   margin-bottom: 0px;
 }
 
+.icon:hover { 
+  transform: scale(1.1); 
+} 
+
+.tech-stack{
+
+  display: flex;
+
+}
+
+.card-text{
+  margin-bottom: 2px !important;
+}
+
+.projects-btn{
+  display: flex;
+  justify-content: center;
+}
