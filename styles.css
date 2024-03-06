@@ -12,24 +12,17 @@ body {
 }
 
 
-.landing-pg, #experience-tab, #education-tab, #skills-tab, #projects-tab {
+.landing-pg,  #experience-tab {
   height: 100vh;
   scroll-margin-top: 60px;
   
 }
 
+#certificates-tab, #education-tab, #skills-tab, #projects-tab{
+  scroll-margin-top: 60px;
 
-.history {
-  display: grid;
-  grid-template-columns: 1fr 0.01fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
 }
 
-.history-tab {
-  height: auto;
-  
-  
-}
 
 .center-line {
   background-color: #1e90ff;
@@ -79,18 +72,11 @@ body {
   border-color: transparent transparent transparent #1e90ff;
 }
 
-#education-tab {
-  background-image: url("images/university-of-manitoba.jpeg");
-  height: 100vh;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-
-}
-
 
 .transcript-img{
   border-radius: 10px;
+  width: 90%;
+  height: 20rem !important;
   
  
 }
