@@ -12,64 +12,15 @@ body {
 }
 
 
-.landing-pg,  #experience-tab {
+#experience-tab {
   height: 100vh;
   scroll-margin-top: 60px;
   
 }
 
-#certificates-tab, #education-tab, #skills-tab, #projects-tab{
+.landing-pg, #certificates-tab, #education-tab, #skills-tab, #projects-tab{
   scroll-margin-top: 60px;
 
-}
-
-
-.center-line {
-  background-color: #1e90ff;
-  position: relative;
-}
-
-.left-side {
-  text-align: right;
-}
-
-.right-side {
-  text-align: left;
-}
-
-.circle {
-  position: absolute;
-  width: 289%;
-  height: 9%;
-  border-radius: 50%;
-  background-color: #1e90ff;
-  left: -90%;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-  font-size: 7px;
-}
-
-.left-triangle {
-  position: absolute;
-  left: -1.5em;
-  top: 50%;
-  transform: translateY(-50%); 
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0.7em 1.4em 0.7em 0; 
-  border-color: transparent #1e90ff transparent transparent;
-}
-
-.right-triangle {
-  position: absolute;
-  right: -1.5em; /* Adjust this value based on the size of the .circle */
-  top: 50%;
-  transform: translateY(-50%); /* Center the triangle vertically */
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0.7em 0 0.7em 1.4em; /* Relative to font-size of .circle */
-  border-color: transparent transparent transparent #1e90ff;
 }
 
 
@@ -129,4 +80,22 @@ body {
 .projects-btn{
   display: flex;
   justify-content: center;
+}
+
+.profile{
+  background: linear-gradient(45deg, #4b6cb7, #182848);
+  background: linear-gradient(45deg, #004e92, #e5e5e5);
+  height: 400px;
+  display: flex;
+  align-items: end;
+  border-radius: 20px;
+}
+
+.display-3{
+  /* color: linear-gradient(45deg, #004e92, #e5e5e5); */
+  background: -webkit-linear-gradient(45deg, #003366, #999999);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
 }
