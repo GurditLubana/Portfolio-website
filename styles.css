@@ -46,7 +46,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 10px;
+  gap: 20px;
 }
 
 .accordion-button .center-align-text {
@@ -63,9 +63,9 @@ body {
   margin-bottom: 0px;
 }
 
-.icon:hover { 
+/* .icon:hover { 
   transform: scale(1.1); 
-} 
+}  */
 
 .tech-stack{
 
@@ -92,10 +92,28 @@ body {
 }
 
 .display-3{
-  /* color: linear-gradient(45deg, #004e92, #e5e5e5); */
   background: -webkit-linear-gradient(45deg, #003366, #999999);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
   color: transparent;
+}
+
+.contact-icon:hover{
+  filter: brightness(60%);
+}
+
+.github-icon:hover {
+  opacity: 0.7;
+}
+
+.contact-icon{
+  margin-right: 1rem;
+}
+
+
+.offcanvas {
+
+  width: calc(var(--bs-offcanvas-width) / 2) !important;
+
 }
