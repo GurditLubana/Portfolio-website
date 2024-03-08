@@ -84,7 +84,7 @@ body {
   border-radius: 20px;
 }
 
-.display-3, h1{
+.display-3{
   background: -webkit-linear-gradient(45deg, #003366, #999999);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -104,7 +104,9 @@ body {
   margin-right: 1rem;
 }
 
-
+h1{
+color:  #02305d;
+}
 .offcanvas {
 
   width: calc(var(--bs-offcanvas-width) / 2) !important;
@@ -124,4 +126,27 @@ body {
 
 .navbar{
   background-color: white !important;
+}
+
+.accordion{
+
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.accordion-button,.accordion-header .accordion-button {
+  background-color: #43c2f738 !important;
+  color: #003366 ;
+  
+}
+
+.accordion-body{
+  background-color: whitesmoke;
+}
+
+.job-card{
+  border: none;
+  background: transparent;
+
 }
