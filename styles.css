@@ -59,9 +59,6 @@ body {
   text-align: left;
 }
 
-.nav-item {
-  margin-bottom: 0px;
-}
 
 .tech-stack{
 
@@ -116,8 +113,15 @@ body {
 
 .active{
 
-  
   font-weight: bolder;
   border-bottom: 3px solid #003366 ;
   
+}
+
+.nav-link:hover{
+  font-weight: bold;
+}
+
+.navbar{
+  background-color: white !important;
 }
