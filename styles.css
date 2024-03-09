@@ -57,6 +57,11 @@ body {
 .job-duties{
 
   text-align: left;
+  list-style-type: "✨ "; 
+}
+
+.job-duties li{
+  margin-bottom: 10px;
 }
 
 
@@ -150,3 +155,4 @@ color:  #02305d;
   background: transparent;
 
 }
+
