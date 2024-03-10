@@ -46,7 +46,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
-  gap: 20px;
+  
 }
 
 .accordion-button .center-align-text {
@@ -142,7 +142,7 @@ color:  #02305d;
 
 .accordion-button,.accordion-header .accordion-button {
   background-color: #43c2f738 !important;
-  color: #003366 ;
+  
   
 }
 
@@ -154,5 +154,10 @@ color:  #02305d;
   border: none;
   background: transparent;
 
+}
+
+.card-body{
+
+  color: #003366 ;
 }
 
