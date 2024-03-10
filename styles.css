@@ -166,8 +166,13 @@ color:  #02305d;
 .btn:hover{
 
   background-color: #003366;
-  
 }
+
+.project-card:hover{
+
+  box-shadow: 10px 10px 5px lightblue;
+}
+
 @media (max-width: 992px) {
   
   .accordion{
