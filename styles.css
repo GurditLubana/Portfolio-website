@@ -26,9 +26,9 @@ body {
 
 .transcript-img{
   border-radius: 10px;
-  width: 90%;
+  /* width: 90%;
   height: 20rem !important;
-  
+   */
  
 }
 
@@ -40,14 +40,6 @@ body {
 
   
 }
-
-/* .skill-grid{
-
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
-  
-} */
 
 .accordion-button .center-align-text {
   text-align: center;

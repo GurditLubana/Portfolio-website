@@ -22,11 +22,12 @@
     <header>
         <nav class="navbar navbar-expand-md bg-light fixed-top ">
             <div class="container">
+                <!-- this can be removed -->
                 <a class="navbar-brand d-md-none" href="#">
                     <svg class="bi" width="24" height="24">
                         <use xlink:href="#aperture"></use>
                     </svg>
-                    Gurdit Singh
+                    
                 </a>
                 <button class="navbar-toggler me-4 " type="button" data-bs-toggle="offcanvas"
                     data-bs-target="#offcanvas" aria-controls="offcanvas" aria-label="Toggle navigation">
@@ -69,7 +70,7 @@
 
                         <div class="text-center text-xxl-start">
 
-                            <h1 class="display-3 fw-bolder mt-5"><span class="d-inline">Gurdit Singh</span></h1>
+                            <h1 class="display-3 fw-bolder mt-2 mt-lg-5"><span class="d-inline">Gurdit Singh</span></h1>
                             <div class="fs-3 fw-normal mb-5 text-muted">Full Stack Developer</div>
                             <div class="fs-4 fw-light mb-5 text-muted">In the world of code, I find my purpose;
                                 developing impactful software with every line I write. Let’s make technology work for
@@ -78,7 +79,7 @@
                                 class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xxl-start mb-3">
                                 <!-- <a class="btn btn-primary btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder" href="resume.html">Resume</a> -->
                             </div>
-                            <div class="flex">
+                            <div class="d-flex flex-nowrap overflow-auto">
                                 <a target="_blank" href="https://www.linkedin.com/in/gurdit-singh-956a47253/"><img
                                         src=".\svg\linkedin.svg" alt="" class="contact-icon" height="40"></a>
                                 <a target="_blank" href="https://github.com/GurditLubana"><img
@@ -99,7 +100,8 @@
 
                         <div class="d-flex justify-content-center mt-5 pt-lg-5 mt-lg-5 ">
                             <div class="profile">
-                                <img class="profile-img" src="images/profile.png" alt="profile pic" height="450" width="400">
+                                <img class="profile-img" src="images/profile.png" alt="profile pic" height="450"
+                                    width="400">
 
                             </div>
                         </div>
@@ -146,14 +148,16 @@
                                 <img class="col skill-logo" src="svg/express-109.svg" height="20">
                                 <img class="col skill-logo" src="svg/jquery-1.svg" height="20">
                                 <img class="col skill-logo" src="svg/postman.svg" height="50">
+                                <img class="col skill-logo" src="svg/sqlite.svg" height="40">
                             </div>
 
 
+                            <div class="row mb-3 align-items-center">
 
-                            <!-- <img class="skill-logo" src="svg/sqlite.svg" height="50" width="80">
-                            <img class="col skill-logo" src="svg/mongodb-icon-2.svg" height="50">
-                            <img class="col skill-logo" src="svg/mysql-logo.svg" height="50">
-                            <img class="col skill-logo" src="svg/microsoft-sql-server-1.svg" height="50"> -->
+                                <img class="col skill-logo" src="svg/mongodb-icon-2.svg" height="50">
+                                <img class="col skill-logo" src="svg/mysql-logo.svg" height="50">
+                                <img class="col skill-logo" src="svg/microsoft-sql-server-1.svg" height="50">
+                            </div>
                         </div>
 
 
@@ -404,17 +408,16 @@
         </section>
 
         <!-- Education -->
-        <section class="mb-3" id="education-tab">
+        <section class="container" id="education-tab">
             <h1><strong>Education</strong></h1>
-            <div class="col-md-12 row flex-lg align-items-center g-5 pt-5">
+            <div class="col-12 row flex-lg align-items-center g-5 pt-5">
                 <div class="col-12 col-sm-12 col-lg-5">
-                    <img src="images/uofm-image.png" class=" transcript-img  mx-lg-auto img-fluid" alt="Profile Pic"
-                        height="50" width="600" loading="lazy">
+                    <img src="images/uofm-image.png" class=" transcript-img img-fluid" alt="Profile Pic" loading="lazy">
                 </div>
-                <div class="col-md-12 col-sm-12 col-lg-7 ">
+                <div class="col-12 col-lg-7 ">
                     <div class="card">
                         <h5 class="card-header py-3">University of Manitoba,MB,Canada</h5>
-                        <p class="card-header card-header-2">Bachelor of Science- Major in Computer Science & Minor in
+                        <p class="card-header card-header-2">Bachelor of Science- Major in Computer Science &amp; Minor in
                             Mathematics </p>
                         <div class="card-body">
 
@@ -450,7 +453,6 @@
             </div>
 
         </section>
-
 
         <!-- Projects -->
         <section class=" mt-5 pt-5" id="projects-tab">
