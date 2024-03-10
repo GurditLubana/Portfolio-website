@@ -1,7 +1,9 @@
+
 body {
   font-family: "Merriweather", serif;
   font-weight: 400;
   font-style: normal;
+  background-color: #43c2f70f;
   
   
 }
@@ -13,29 +15,23 @@ body {
 
 
 #experience-tab {
-  height: 100vh;
   scroll-margin-top: 60px;
   
 }
 
 .landing-pg, #certificates-tab, #education-tab, #skills-tab, #projects-tab{
   scroll-margin-top: 60px;
-
 }
 
 
 .transcript-img{
   border-radius: 10px;
-  /* width: 90%;
-  height: 20rem !important;
-   */
- 
+   
 }
 
 .edu-details{
 
-  background-color: rgba(250, 247, 247, 0.8);
-  color: black;
+  background-color: whitesmoke;
   border-radius: 10px;
 
   
@@ -46,13 +42,13 @@ body {
   width: 100%; 
 }
 
-.job-duties{
+.job-duties, .edu-details ul{
 
   text-align: left;
   list-style-type: "✨ "; 
 }
 
-.job-duties li{
+.job-duties li, .edu-details ul li{
   margin-bottom: 10px;
 }
 
@@ -73,7 +69,6 @@ body {
 }
 
 .profile{
-  /* background: linear-gradient(45deg, #4b6cb7, #182848); */
   background: linear-gradient(45deg, #004e92, #e5e5e5);
   height: 400px;
   display: flex;
@@ -123,16 +118,12 @@ color:  #02305d;
 
 .navbar{
   background-color: white !important;
+  
 }
 
-.accordion{
 
-  max-width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-}
 
-.accordion-button,.accordion-header .accordion-button {
+.accordion-button,.accordion-header .accordion-button, .card-header ,.project-card, .certificate-body{
   background-color: #43c2f738 !important;
   
   
@@ -153,3 +144,46 @@ color:  #02305d;
   color: #003366 ;
 }
 
+
+.accordion{
+  
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-header:first-child {
+  border-bottom: hidden;
+  padding-bottom: 0;
+}
+
+.btn{
+  background-color: #43c1f79c;
+  color: #003366;
+  border: hidden;
+}
+
+.btn:hover{
+
+  background-color: #003366;
+  
+}
+@media (max-width: 992px) {
+  
+  .accordion{
+  
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  
+  
+#experience-tab {
+  height: 100vh;
+  scroll-margin-top: 60px;
+  
+}
+}
