@@ -84,7 +84,7 @@ body {
   color: transparent;
 }
 
-.contact-icon:hover{
+.contact-icon:hover, .btn:hover{
   filter: brightness(60%);
 }
 
@@ -158,8 +158,8 @@ color:  #02305d;
 }
 
 .btn{
-  background-color: #43c1f79c;
-  color: #003366;
+  background-color: #003366;
+  color: white;
   border: hidden;
 }
 
