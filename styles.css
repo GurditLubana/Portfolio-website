@@ -69,7 +69,7 @@ body {
 }
 
 .profile{
-  background: linear-gradient(45deg, #004e92, #e5e5e5);
+  background: linear-gradient(60deg, #004e92, #e5e5e5);
   height: 400px;
   display: flex;
   align-items: end;
