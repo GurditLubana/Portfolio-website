@@ -11,7 +11,7 @@ This repository hosts the source code for my personal portfolio website, showcas
 
 ## Live Demo
 
-Check out the live version ![Gurdit's Portfolio]((https://gurditsingh.netlify.app/)).
+Check out the live version [Gurdit's Portfolio](https://gurditsingh.netlify.app/).
 
 ## Contact
 
